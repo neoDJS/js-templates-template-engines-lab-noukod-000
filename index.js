@@ -11,7 +11,7 @@ function createPost(){
     main.innerHTML += pageTemplateFn({post:postTemplateFn({post_title: title, post_body: post, post_author: author})});
 
     let divPost = document.getElementById('post');
-    let commentsSection = commentsTemplateFn();
+    let commentsSection = commentsTemplateFn({comments: []});
 
     divPost.innerHTML += commentsSection;
 
