@@ -1,14 +1,12 @@
 {
-  "name": "java-script-lodash-templates-lab",
+  "name": "moving-things-with-java-script",
   "version": "0.1.0",
-  "description": "Practice using lodash templates",
+  "description": "Practice animating elements on the page with JavaScript",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/learn-co-curriculum/java-script-lodash-templates-lab.git"
+    "url": "git+ssh://git@github.com/learn-co-curriculum/moving-things-with-java-script.git"
   },
   "keywords": [
     "javascript",
@@ -18,26 +16,14 @@
   "author": "pletcher",
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
-    "url": "https://github.com/learn-co-curriculum/java-script-lodash-templates-lab/issues"
+    "url": "https://github.com/learn-co-curriculum/moving-things-with-java-script/issues"
   },
-  "homepage": "https://github.com/learn-co-curriculum/java-script-lodash-templates-lab#readme",
+  "homepage": "https://github.com/learn-co-curriculum/moving-things-with-java-script#readme",
   "devDependencies": {
-    "babel-core": "^6.11.4",
-    "babel-preset-es2015": "^6.9.0",
-    "expect": "^1.20.2",
+    "expect": "^1.20.1",
     "jsdom": "^9.2.1",
-    "lodash": "^4.14.0",
     "mocha": "^2.5.3",
     "mocha-jsdom": "^1.1.0",
     "mocha-multi": "^0.9.0"
-  },
-  "dependencies": {
-    "expect": "^1.20.2",
-    "jsdom": "^9.4.1",
-    "lodash": "^4.14.0",
-    "mocha": "^2.5.3",
-    "mocha-jsdom": "^1.1.0",
-    "package.js": "^1.1.3",
-    "package.json": "^2.0.1"
   }
 }
